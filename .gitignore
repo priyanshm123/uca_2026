@@ -56,4 +56,7 @@ dkms.conf
 *.dwo
 main_app
 auditlog/auditlog
+week2/brute
+week2/optimized
+week2/tokenizer
 
