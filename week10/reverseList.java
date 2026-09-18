@@ -28,7 +28,6 @@ public class reverseList {
         System.out.println();
     }
 
-
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
 
@@ -50,9 +49,6 @@ public class reverseList {
                 tail = newNode;
             }
         }
-
-        System.out.println("Original List:");
-        printList(head);
 
         head = reverse(head);
         System.out.println("Reversed List:");
